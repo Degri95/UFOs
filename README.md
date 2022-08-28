@@ -8,7 +8,7 @@ In this project javascript was used to create a filter function that allowed use
 
 
 ## Results
-The webpage now successfully filters data based on user input. A variable was created to store the users filters and a function was created to select user input and store it in the varaible.
+The webpage now successfully filters data based on user input. A variable was created to store the users filters and a function was created to grab the user input and store it in the filter varaible.
 
 ![updateFilters](/Resources/updateFilters.PNG)
 
@@ -16,3 +16,6 @@ After the filters have been added to the filters variable, another function loop
 
 ![filterTable](/Resources/filterTable.PNG).
 
+Now our webpage can search our data with multiple filters using user input. After entering the filters the user just has to press the enter key and the table will update. To clear the filters the user can just select the UFO sightings link in the top right corner, or clear out the filters and press enter.
+
+![filtered_table](/Resources/filtered_table.PNG)
