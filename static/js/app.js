@@ -21,7 +21,7 @@ function buildTable(data) {
       cell.text(val);
     });
   });
-}
+};
 
 // 1. Create a variable to keep track of all the filters as an object.
 let filters = {};
@@ -43,7 +43,7 @@ function updateFilters() {
         filters[filterId] = elementValue;
     } else {
         delete filters[filterId];
-    }
+    };
   
     // 6. Call function to apply all filters and rebuild the table
     filterTable();
@@ -63,13 +63,13 @@ function updateFilters() {
         // If there is a filter then filter the data
         if(filters){
             filteredData = filteredData.filter(row => row[key].includes(val));
-        }
-    })
+        };
+    });
 
         
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData);
-  }
+  };
 
   // 2. Attach an event to listen for changes to each filter
   d3.selectAll("input").on("change", updateFilters);
