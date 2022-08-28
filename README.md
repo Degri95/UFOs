@@ -16,7 +16,7 @@ After the filters have been added to the filters object, another function looped
 
 ![filterTable](/Resources/filterTable.PNG).
 
-Now our webpage can search our data with multiple filters with user input. After entering the filters the user just has to press the enter key or click on another part of the webpage and the table will update. To clear the filters the user can just select the UFO sightings link in the top right corner, or clear out the filters and press enter.
+Now our webpage can search our data with multiple filters with user input. After entering the filters the user just has to press the enter key or click on another part of the webpage and the table will update. To clear the filters the user can just select the UFO sightings link in the top left corner, or clear out the filters and press enter.
 
 ![filtered_table](/Resources/filtered_table.PNG)
 
