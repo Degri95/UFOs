@@ -26,6 +26,6 @@ In summary this filtering system does do what is intended, but there are some dr
 
 ### Recommendations 
 
-1. Since all of the data we are filtering from is in lowercase, I think the Javascript ```toLowerCase()``` method should be applied to the users inputted filters to help with user experience. A user won't know that the filters are case sensitive without prior knowledge.
+1. Since all of the data we are filtering from is in lowercase, I think the Javascript ```toLowerCase()``` method should be applied to the users inputted filters to help with user experience. A user won't know the filters are case sensitive without prior knowledge.
 
 2. I think displaying what parameter the user could filter by would help with the user experience. A drop down list on the input fields that would list all values able to be filtered would make the webpage more intuitive.
